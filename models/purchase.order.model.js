@@ -6,47 +6,45 @@ const purchaseOrderSchema = new Schema({
         type: String,
         required: true,
         unique: true,
-    },
-    vendor: {
-        type: Schema.Types.ObjectId,
+      },
+      vendor: {
+        type: mongoose.Schema.Types.ObjectId,
         ref: 'Vendor',
         required: true,
-    },
-    orderDate: {
+      },
+      orderDate: {
         type: Date,
         required: true,
-    },
-    deliveryDate: {
+      },
+      deliveryDate: {
         type: Date,
-    },
-    items: {
-        type: Object,
         required: true,
-    },
-    quantity: {
+      },
+      items: {
+        type: mongoose.Schema.Types.Mixed,
+        required: true,
+      },
+      quantity: {
         type: Number,
         required: true,
-    },
-    status: {
+      },
+      status: {
         type: String,
         required: true,
         enum: ['pending', 'completed', 'canceled'],
-    },
-    qualityRating: {
+      },
+      qualityRating: {
         type: Number,
-        min: 0,
-        max: 5,
         default: null,
-    },
-    issueDate: {
+      },
+      issueDate: {
         type: Date,
-        default: Date.now,
         required: true,
-    },
-    acknowledgmentDate: {
+      },
+      acknowledgmentDate: {
         type: Date,
         default: null,
-    },
+      },
 });
 
 const PurchaseOrder = mongoose.model('PurchaseOrder', purchaseOrderSchema);

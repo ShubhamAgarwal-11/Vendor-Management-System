@@ -71,13 +71,9 @@ const getSpecificVendor = async (req, res) => {
 
 const updateVendorDetails = async (req, res) => {
     try {
-        const {name , contactDetails, address} = req.body;
+        const Data = req.body;
         const id = req.params.id;
-        const vendor = await Vendor.findByIdAndUpdate(id, {
-            name,
-            contactDetails,
-            address
-        },{new : true})
+        const vendor = await Vendor.findByIdAndUpdate(id, Data, { new: true });
         res.status(200).json({
             success : true,
             vendor

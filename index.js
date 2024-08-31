@@ -9,6 +9,7 @@ db();
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use('/api/vendor', require('./routes/index.js'))
+app.use('/vendors', require('./routes/index.js'))
+app.use('/purchase-orders', require('./routes/purchase.order.router.js'))
 
 app.listen(port, () => console.log(`server is running on port ${port}`))
