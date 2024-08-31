@@ -71,10 +71,10 @@ This is a Node.js-based Vendor Management System built using the ExpressJs frame
 
 # Setup Instructions
 
-- `Clone the repository using git clone.`
+- Clone the repository using `git clone`.
 
-- `Install dependencies using npm install or yarn install.`
+- Install dependencies using `npm install` or `yarn install`.
 
-- `Start the application using npm run start or yarn start.`
+- Start the application using `npm run start` or `yarn start`.
 
-- `Use a tool Postman to test the API endpoints.`
+- Use a tool Postman to test the API endpoints.
