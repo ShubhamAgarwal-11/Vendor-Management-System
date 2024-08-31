@@ -26,6 +26,22 @@ This is a Node.js-based Vendor Management System built using the ExpressJs frame
    ```bash
    git clone `https://github.com/ShubhamAgarwal-11/Vendor-Management-System.git`
 
+### Docker Installation
+
+1. Install Docker :- Ensure Docker is installed on the target PC. You can download and install Docker from the official Docker website:
+
+-   Docker Desktop for Windows
+-   Docker Desktop for Mac
+-   Docker Engine for Linux
+
+2. Pull the Docker Image :- On the target PC, you need to pull the Docker image from Docker Hub (or the registry where you pushed it). Use the following command:
+
+   `sh docker pull shubham355/vendor_management:latest`
+
+3. Run the Docker Container :- Once the image is pulled, you can run it with Docker. You'll need to specify the necessary ports and environment variables if required. Here’s an example command:
+
+   `sh docker run -p 3000:3000 --name vendor_management shubham355/vendor_management:latest`
+   
 
 # API Endpoints
 
