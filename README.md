@@ -32,7 +32,8 @@ This is a Node.js-based Vendor Management System built using the ExpressJs frame
 ## Vendor Profile
 
 - `POST /vendors`: Create a new vendor
-    
+    ![Alt text](https://res.cloudinary.com/daf7blofc/image/upload/v1725133553/yash%20images/zkjulxohigezpaow11gq.jpg)
+
 
 - `GET /vendors`: List all vendors
 
