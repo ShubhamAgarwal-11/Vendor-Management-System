@@ -36,10 +36,10 @@ This is a Node.js-based Vendor Management System built using the ExpressJs frame
 
 
 - `GET /vendors`: List all vendors
-
+   ![Alt text](https://res.cloudinary.com/daf7blofc/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1725133553/yash%20images/jerglmkkdztkuqsmubok.jpg)
 
 - `GET /vendors/:vendorId`: Retrieve a specific vendor's details
-
+   ![Alt text](https://res.cloudinary.com/daf7blofc/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1725133553/yash%20images/k1sw9n3lvz5wx2aswjmr.jpg)
 
 - `PUT /vendors/:vendorId`: Update a vendor's details
 
@@ -51,11 +51,11 @@ This is a Node.js-based Vendor Management System built using the ExpressJs frame
 
 
 - `POST /purchase-orders`: Create a new purchase order
-
+   ![Alt text](https://res.cloudinary.com/daf7blofc/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1725133553/yash%20images/hbp7xvy2lulumfvwoade.jpg)
 
 
 - `GET /purchase-orders`: List all purchase orders
-
+   ![Alt text](https://res.cloudinary.com/daf7blofc/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1725133553/yash%20images/gscvtckksldw8y87xgt6.jpg)
 
 - `GET /purchase-orders/:poId`: Retrieve details of a specific purchase order
 
