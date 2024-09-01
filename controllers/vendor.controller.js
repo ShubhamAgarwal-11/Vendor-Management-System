@@ -1,4 +1,5 @@
 const Vendor = require('../models/vendor.model')
+const { v4: uuidv4 } = require('uuid');
 const createVendor = async (req, res) => {
     try {
         const { name, contactDetails, address } = req.body;
@@ -13,7 +14,7 @@ const createVendor = async (req, res) => {
             name,
             contactDetails,
             address,
-            vendorCode : Date.now(),
+            vendorCode : uuidv4() ,
             onTimeDeliveryRate : 0,
             qualityRatingAvg : 0,
             averageResponseTime : 0,
